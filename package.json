@@ -1,0 +1,14 @@
+{
+  "name": "tw-source-contract-workbench-netlify",
+  "version": "1.1.0",
+  "private": true,
+  "description": "AG-REPLAY-BLOCKER-03A04A05 Netlify-ready Source Contract Workbench",
+  "scripts": {
+    "dev": "netlify dev",
+    "check:function": "node --check netlify/functions/probe.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {}
+}
