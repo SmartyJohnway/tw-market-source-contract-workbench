@@ -6,7 +6,10 @@ const DEFAULT_ALLOWED_HOSTS = new Set([
   'www.tpex.org.tw',
   'api.finmindtrade.com',
   'mops.twse.com.tw',
-  'mopsov.twse.com.tw'
+  'mopsov.twse.com.tw',
+  'openapi.tdcc.com.tw',
+  'openapi.taifex.com.tw',
+  'www.fundclear.com.tw'
 ]);
 
 function corsHeaders() {
